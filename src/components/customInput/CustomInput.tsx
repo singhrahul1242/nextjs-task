@@ -33,6 +33,7 @@ const CustomInput = ({
           placeholder={placeholder}
           size="sm"
           name={name}
+          key={name}
         />
       ) : (
         <Select
