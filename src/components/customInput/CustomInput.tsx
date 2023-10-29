@@ -21,7 +21,7 @@ const CustomInput = ({
   error,
   handelChange,
   touched,
-  name,
+  name = "",
 }: any) => {
   return (
     <Box>
@@ -42,7 +42,7 @@ const CustomInput = ({
           placeholder="Select option"
           size="sm"
         >
-          {option.map((opt:any, index:any) => (
+          {option.map((opt: any, index: any) => (
             <option key={index} value={opt}>
               {opt}
             </option>

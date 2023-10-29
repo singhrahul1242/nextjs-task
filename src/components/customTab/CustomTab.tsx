@@ -52,7 +52,7 @@ const CustomTab = ({
       }
     } else {
       onSubmit2();
-      interviewValid ? alert("Candidate Details Successfully Submited") : ''
+      interviewValid ? alert("Form Submitted Successfully") : ''
     }
   };
 
